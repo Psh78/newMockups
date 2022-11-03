@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mock5.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+     rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Cotiviti</title>
+</head>
+<body>
+    <main>
+        <div class="navBar_left">
+            <div class="top">
+                <h1 ><span class="fa-solid fa-briefcase-medical"></span>Cotiviti</h1>
+                <form action="">
+                    <input type="text" placeholder="Search" autocomplete="off">
+                </form>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+            <div class="container">
+                <div class="middle">
+                    <div class="middle_up">
+                        <p class="clickable"><span class="fa-solid fa-house "></span>Home</p>
+                        <p class="clickable"><span class="fa-solid fa-bar-chart "></span>Dashboard</p>
+                        <p class="clickable"><span class="fa-solid fa-hamburger "></span>Projects</p>
+                        <p class="clickable"><span class="fa-solid fa-check-square "></span>Tasks</p>
+                        <p class="clickable"><span class="fa-solid fa-flag "></span>Reporting</p>
+                        <p class="clickable"><span class="fa-solid fa-users "></span>Users</p>
+                    </div>
+                    <div class="middle_down">
+                        <p class="clickable"><span class="fa-solid fa-heart"></span>Support</p>
+                        <p class="clickable"><span class="fa-solid fa-screwdriver"></span>Settings</p>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <div class="progressBar">
+                        <div class="dashboard">
+                            <svg>
+                            <circle class="bg" cx="57" cy="57" r="52" />
+                            <circle class="meter-1" cx="57" cy="57" r="52" />
+                            </svg>
+                        </div>
+                        <div class="percent">
+                            <h4>80%</h4>
+                        </div>
+                    </div>
+                    <h4 class="clickable">Used Space</h4>
+                    <p>Check out the new dashobard view. Pages now load faster</p>
+                    <div class="dismissal">
+                        <span class="clickable">Dismiss</span> <span class="clickable">Upgrade Plan</span>
+                </div>
+            </div>
+        </div>
+
+            <hr>
+        </div>
+        <div class="content">
+            <div class="part1">
+                <h1>Settings</h1>
+                <p class="colorText">Manage Your team and preferences here.</p>
+                <div class="group">
+                    <p>My details</p>
+                    <p>Profile</p>
+                    <p>Password</p>
+                    <p>Team</p>
+                    <p>Plan</p>
+                    <p>Billing</p>
+                    <p>Notifications</p>
+                    <p>Integrations</p>
+                    <p>API</p>
+                </div>
+            </div>
+
+            <div class="part2">
+                <h3>Payment method</h3>
+                <p class="colorText update_billing">Update your billing details and address</p>
+                <hr>
+                <div class="contactMail">
+                    <div>
+                        <p class="p1 colorText2">Contact email</p>
+                        <p class="p2 colorText2">Where should invoices be sent?</p>
+                    </div>
+                    <form action="#" class="f1">
+                        <div>
+                            <input id="sent" type="radio" name="email_selection" class="email_selector1">
+                            <label for="sent">Send to my account email</label>
+                        </div>
+                        <p class="p3 colorText2">olivia@untitledui.com</p>
+                        <div>
+                            <input type="radio" id="alternate" name="email_selection" class="email_selector2">
+                            <label for="alternate">Send to an alternate email</label>
+                        </div>
+                    </form>
+                    <input type="email" id="alternate" class="pi2 email_input" name="email_selection" disabled = "true">
+                </div>
+                <hr>
+            </div>
+
+            <div class="part3">
+                <div>
+                    <p class="colorText2 pp1" style="font-size: 1rem; font-weight: 550;">Card details</p>
+                    <p  class="colorText3 pp2">Select default payment method.</p>
+                </div>
+                <form action="#">
+                <div class="part3Sub1 ">
+                    <div>
+                        <img src="https://cdn1.iconfinder.com/data/icons/cash-card-add-on/48/v-18-512.png" alt="visaCard">
+                        <div>
+                        <p>Visa ending in 1234</p>
+                        <p>Expiry 06/2024</p>
+                        <span class="colorText3">Set as Default</span> <span class="colorText">Edit</span>
+                        </div>
+                    </div>
+                    <input type="radio" name="card" class="selection_holders card1">
+                </div>
+                <div class="part3Sub2">
+                    <div>
+                        <img src="https://download.logo.wine/logo/Mastercard/Mastercard-Logo.wine.png" alt="mastercard">
+                        <div>
+                            <p>Mastercard ending in 1234</p>
+                            <p>Expiry 06/2024</p>
+                            <span class="colorText3">Set as Default</span> <span class="colorText">Edit</span>
+                        </div>
+                    </div> 
+                    <input type="radio" class="selection_holders card2" name="card">
+                </div>
+                <p class="colorText3 pp3"><span class="fa-solid fa-plus  colorText3"></span>Add new payment method</p>
+            </form>
+            </div>
+            <div class="part4">
+                <h3>Billing history</h3>
+                <div class="table_wrapper">
+                <table class = "billing_table">
+                    <thead>
+                        <tr class="billing_headers">
+                            <th><input type="checkbox" class="all-checker">Invoice&#x2193;</th>
+                            <th>Amount</th>
+                            <th>Date</th>
+                            <th>Status</th>
+                            <th>Users</th>
+                        </tr>
+                </thead>
+                        <tbody>
+                            <tr class="billing_details">    
+                                <td class="billing_plan"><input type="checkbox" class="plan-1 checking">Basic Plan - Dec 2022</td>
+                                <td class="billing_amount">USD &#x24;10.00</td>
+                                <td class="billing_date">Dec 1, 2022</td>
+                                <td class="paid"><span>&#10003;Paid</span></td>
+                                <td><span><img src="userImages/user1.jfif" alt="user1"></span></td>
+                            </tr>
+                            <tr class="billing_details">
+                                <td class="billing_plan"><input type="checkbox" class="plan-2 checking">Basic Plan - Nov 2022</td>
+                                <td class="billing_amount">USD &#x24;10.00</td>
+                                <td class="billing_date">Nov 1, 2022</td>
+                                <td class="paid"><span>&#10003;Paid</span></td>
+                                <td><span><img src="userImages/user2.jfif" alt="user2"></span></td>
+                            </tr>
+                            <tr class="billing_details">
+                                <td class="billing_plan"><input type="checkbox" class="plan-3 checking">Basic Plan - Oct 2022</td>
+                                <td class="billing_amount">USD &#x24;10.00</td>
+                                <td class="billing_date">Oct 1, 2022</td>
+                                <td class="paid"><span>&#10003;Paid</span></td> 
+                                <td><span><img src="userImages/user3.jfif" alt="user3"></span></td>
+                            </tr>
+                            <tr class="billing_details">
+                                <td class="billing_plan"><input type="checkbox" class="plan-4 checking">Basic Plan - Sep 2022</td>
+                                <td class="billing_amount">USD &#x24;10.00</td>
+                                <td class="billing_date">Sep 1, 2022</td>
+                                <td class="paid"><span>&#10003;Paid</span></td>
+                                <td><span><img src="userImages/user4.jfif" alt="user4"></span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="mock5.js"></script>
+</body>
+</html>
