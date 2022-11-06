@@ -1,0 +1,356 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html
+{
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Public Sans', sans-serif;;
+    font-size: 16px;
+}
+
+main
+{
+    display: flex;
+}
+
+/* nav_bar - starts */
+
+.nav_bar
+{
+    width: 15%;
+    padding: 2rem 2rem 0 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;   
+}
+
+/* top- starts */
+
+.heading
+{
+    margin-bottom: 2rem;
+}
+
+.top img
+{
+    width: 8rem;
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
+}
+
+.top span
+{
+    margin-right: 0.8rem;
+    color: red;
+}
+
+.top p
+{
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0.3rem;
+    color: rgb(134, 130, 130);
+}
+
+.top button
+{
+    all: unset;
+    padding: 0.3rem 0.6rem;
+    background-color: white;
+    box-shadow: -1px -1px 9px 0px rgba(0,0,0,0.45);
+    border-radius: 10px;
+    margin-top: 0.3rem;
+}
+/* top - ends */
+
+/* middle - starts */
+
+.middle 
+{
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.middle span
+{
+    margin-right: 0.8rem;
+    color: red;
+}
+
+.middle p
+{
+    margin-bottom: 1.5rem;
+}
+/* middle - ends */
+
+
+/* bottom - starts */
+
+.bottom
+{
+    margin-top: 4rem;
+}
+
+.bottom_container
+{
+    display: flex;
+    width: 100%;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.bottom img
+{
+    width: 3rem;
+    border-radius: 50%;
+}
+/* bottom - ends */
+.top, .middle
+{
+    margin-bottom: 2rem;
+}
+/* nav-bar - ends */
+
+/* content - starts */
+
+.content
+{
+    width: 85%;
+    background-color: #fcf5f1;
+}
+
+/* part1 - starts */
+
+.part1
+{
+    width: 100%;
+    display: flex;
+    padding: 2rem 3.5rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.part1_left
+{
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.part1_left span
+{
+    font-size: 1.2rem;
+    position: absolute;
+}
+
+.part1_left input
+{
+    all: unset;
+    width: 93%;
+    border-bottom: 1px solid rgb(194, 191, 191);
+    padding: 1rem 1rem 1rem 2rem;
+    color: rgb(134, 130, 130);
+}
+
+.part1_right
+{
+    display: flex;
+    align-items: center;
+}
+
+.part1_right span  
+{
+    font-size: 1.5rem;
+}
+
+.part1 button
+{
+    all: unset;
+    padding: 1.2rem 1.5rem;
+    background-color: rgb(235, 50, 17);
+    font-weight: 550;
+    color: white;
+    border-radius: 15px;
+    margin-left: 1.5rem;
+    box-shadow: -1px -1px 9px 0px rgba(255, 0, 0, 0.45);
+}
+
+/* part1 - ends */
+
+/* part2 - starts */
+
+.part2
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 3.5rem;
+    padding-left: 0;
+}
+
+.part2 img
+{
+    width: 15rem;
+    border-radius: 60%;
+    fill: #fcf5f1;
+}
+
+.part2_left
+{
+    display: flex;
+    align-items: center;
+}
+
+.part2_left h1
+{
+    font-size: 4rem;
+    margin-bottom: 0.5rem;
+}
+
+.part2_left p
+{
+    color: rgb(134, 130, 130);
+    font-size: 1.56rem;
+}
+
+.part2_right
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.tutorials, .recipies
+{
+    text-align: center;
+}
+
+.tutorials h1, .tutorials p
+{
+    border-right: 3px solid rgb(194, 191, 191);
+    padding-right: 3rem;
+}
+
+.tutorials h1, .recipies h1
+{
+    font-size: 3rem;
+}
+
+.tutorials p, .recipies p
+{
+    font-size: 0.9rem;
+}
+
+.recipies
+{
+    margin-left: 2.2rem;
+}
+
+.recipies p, .tutorials p
+{
+    color: rgb(134, 130, 130);
+}
+/* part2 - ends */
+
+/* part3 - starts */
+
+.part3
+{
+    width: 100%;
+    padding: 2rem 3.5rem;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    text-align: center;
+}
+
+.card1 img
+{
+    width: 5rem;
+    border-radius: 50%;
+}
+
+.card1_middle
+{
+    display: flex;
+    justify-content: center;
+}
+
+.card2 img
+{
+    width: 5rem;
+    border-radius: 45%;
+}
+
+.card3 img
+{
+    width: 5rem;
+    border-radius: 45%;
+}
+
+.card4 img
+{
+    width: 5rem;
+    border-radius: 45%;
+}
+
+.card5 img
+{
+    width: 5rem;
+    border-radius: 50%;
+}
+
+.card6 img
+{
+    width: 5rem;
+    border-radius: 45%;
+}
+
+.card7 img
+{
+    width: 5rem;
+    border-radius: 56%;
+}
+
+.card8 img
+{
+    width: 5rem;
+    border-radius: 45%;
+}
+
+.card9 img
+{
+    width: 5rem;
+    border-radius: 45%;
+}
+/* part3 - ends */
+
+/* used classes */
+
+.beginner
+{
+    padding: 0.4rem;
+    color: green;
+    background-color: greenyellow;
+}
+
+.intermediate
+{
+    padding: 0.4rem;
+    color: rgb(189, 123, 1);
+    background-color: orange;
+}
+
+.expert
+{
+    color: red;
+    padding: 0.4rem;
+    background-color: rgb(234, 76, 76);
+}
+/* content - ends */
