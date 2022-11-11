@@ -1,0 +1,337 @@
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html
+{
+    width: 100%;
+}
+body
+{
+    background-color: grey;
+    width: 100%;
+}
+
+body img
+{   
+    cursor: pointer;
+}
+
+[class ^= "bi"]
+{
+    cursor: pointer;
+}
+
+.nav-bar .contents .bi:hover
+{
+    background-color: #a9dfd8;
+    color: black !important;
+}
+
+.container-fluid
+{
+    padding: 0;
+}
+
+.content
+{
+    padding-bottom: 2rem !important;
+}
+
+.top-right p:hover
+{
+    background-color: #a9dfd8;
+    color: black !important;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.content-top
+{
+    border-bottom: 1.5px solid rgb(105, 104, 104) !important;
+}
+
+.middle-left 
+{
+    font-size: 0.8rem;
+    font-weight: 550;
+}
+
+.middle-left p:hover
+{
+    color:#a9dfd8 !important;
+    cursor: pointer;
+}
+
+.content-remaining
+{
+    font-size: 0.8rem;
+}
+
+
+.content img
+{
+    width: 1rem;
+    border-radius: 50%;
+}
+
+[class ^= "cont"] p
+{
+    font-size: 0.8rem;
+    font-weight: 550;
+}
+
+.cont-1
+{
+    border-left: 1px dotted rgb(105, 104, 104);
+}
+
+.cont-2
+{
+    margin-left: 6rem;
+    border-left: 1px dotted rgb(105, 104, 104);
+}
+
+.card2p
+{
+    color: rgb(133, 172, 172);
+}
+
+.vacation
+{
+    padding-bottom: 2px;
+    border-bottom: 1px solid rgb(135, 180, 180);
+}
+
+.vacations
+{
+    padding-bottom: 2px;
+    border-bottom: 1px solid rgb(235, 167, 41);
+}
+
+.cont-3
+{
+    border-left: 1px dotted rgb(105, 104, 104);
+    margin-left: 6rem;
+}
+
+.card3p 
+{
+    color: rgb(189, 131, 189);
+}
+
+.cont-4
+{
+    margin-left: 6rem;
+    border-left: 1px solid rgb(105, 104, 104);
+}
+
+.card4p
+{
+    color: rgb(235, 167, 41);
+}
+
+.cont-5
+{
+    margin-left: 6rem;
+}
+
+
+.card5p
+{
+    color: rgb(56, 116, 165);
+}
+
+[class ^= "card"]
+{
+    background-color: #333336;
+}
+
+.card1 p
+{
+    color: rgb(228, 99, 99);
+}
+
+/* ----- content- time */
+
+.content-time
+{
+    margin-top: 1rem;
+    /* margin-left: 8rem; */
+}
+
+/* ----- content bottom */
+
+.progres
+{
+    width: 100%;
+    height: 1rem;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.progress_bar
+{
+    width: 41%;
+    height: 0.8rem;
+    border-radius: 20px;
+    padding-top:1rem;
+    background-color: rgb(45, 134, 45);
+}
+
+.progress_bar1
+{
+    width: 90%;
+    height: 0.8rem;
+    border-radius: 20px;
+    padding-top:1rem;
+    background-color: rgb(45, 134, 45);
+}
+.progress_bar2
+{
+    width: 71%;
+    height: 0.8rem;
+    border-radius: 20px;
+    padding-top:1rem;
+    background-color: rgb(45, 134, 45);
+}
+
+.content-bottom
+{
+    margin: 0 auto;
+}
+
+.content-bottom [class ^= "col"]
+{
+    background-color: #333336;
+    border-radius: 20px;
+}
+
+.round-clock
+{
+    background-color: #4e4e52;
+    padding: 0.2rem;
+}
+
+/* ------------ side bar ----------- */
+.side-bar
+{
+    background-color: #13151b;
+}
+
+.side-bar select{
+    all: unset;
+    color: rgb(105, 104, 104);
+    font-weight: bold;
+    background: #13151b;
+}
+.side-bar img
+{
+    width: 2rem;
+    border-radius: 50%;
+}
+
+@keyframes growProgressBar {
+    0%, 33% { --pgPercentage: 0; }
+    100% { --pgPercentage: var(--value); }
+  }
+  
+  @property --pgPercentage {
+    syntax: '<number>';
+    inherits: false;
+    initial-value: 0;
+  }
+  
+  div[role="progressbar"] {
+    --size: 8rem;
+    --fg: rgb(145, 173, 99);
+    --bg: #def;
+    --pgPercentage: var(--value);
+    animation: growProgressBar 3s 1 forwards;
+    width: var(--size);
+    height: var(--size);
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    background: 
+      radial-gradient(closest-side, white 80%, transparent 0 99.9%, white 0),
+      conic-gradient(var(--fg) calc(var(--pgPercentage) * 1%), var(--bg) 0)
+      ;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: calc(var(--size) / 5);
+    color: var(--fg);
+  }
+  
+  div[role="progressbar"]::before {
+    counter-reset: percentage var(--value);
+    content: counter(percentage) '%';
+  }
+
+.side-extra [class ^= "col"]
+{
+    background-color: #20212a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.side-extra [class ^= "col"]:hover
+{
+    background-color: #a9dfd8;
+}
+
+
+
+/* ------------------ media queries */
+
+@media (max-width: 998px)
+{
+    .nav-bar
+    {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .nav-bar .contents   
+    {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .contents h5
+    {
+        padding: 0rem 2rem ;
+    }
+}
+
+@media(max-width: 1200px)
+{
+    .cont-1
+    {
+        margin-left: 1rem;
+    }
+    .cont-2
+    {
+        margin-left: 5rem;
+        border-left: 1px dotted rgb(105, 104, 104);
+    }
+
+    .cont-3
+    {
+        border-left: 1px dotted rgb(105, 104, 104);
+        margin-left: 5rem;
+    }
+    .cont-4
+    {
+        margin-left: 5rem;
+        border-left: 1px solid rgb(105, 104, 104);
+    }
+    .cont-5
+    {
+        margin-left: 5rem;
+    }
+}

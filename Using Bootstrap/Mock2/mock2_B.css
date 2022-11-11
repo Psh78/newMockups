@@ -1,0 +1,267 @@
+
+/* sidebar - starts */
+
+.side_bottom img{
+    width: 2rem;
+    border-radius: 50%;
+}
+
+/* sidebar - ends */
+
+/* content- starts */
+
+.content
+{
+    background-color: #fdede5;
+}
+
+/* content-top - starts */
+
+.search_img
+{
+    top: 7px;
+    left: 18px;
+}
+
+.search_bar
+{
+    background-color: #fdede5;
+    padding-left: 2rem;
+    
+}
+
+/* content-top - ends */
+
+/* content bottom - starts */
+
+[class ^= "card"] img
+{
+    top: -30px;
+    scale: 1.2;
+}
+
+[class ^= "card"]
+{
+    transition: transform 0.3s;
+}
+
+.card1:hover, .card2:hover, .card3:hover, .card4:hover, .card5:hover, .card6:hover, .card7:hover, .card8:hover
+{
+    transform: scale(1.15);
+}
+
+.card_top_row
+{
+    margin-bottom: 4rem;
+}
+
+/* .card_bottom_row
+{
+    margin-bottom: 4rem;
+} */
+
+.dish_name
+{
+    margin-top: 2.5rem;
+}
+
+/* content bottom - ends */
+
+/* common classes - starts */
+
+.expert
+{
+    --bs-bg-opacity: .25;
+    color: rgb(206, 99, 99);
+}
+
+.intermediate
+{
+    --bs-bg-opacity: 0.25;
+    color: rgb(187, 116, 58);
+}
+
+.beginner
+{
+    --bs-bg-opacity: 0.25;
+    color: rgb(7, 146, 7);
+}
+
+.start_cook:hover
+{
+    background-color: red;
+    color: white;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+}
+
+/* common classes - ends */
+/* content - ends */
+
+/* media-queries - starts */
+
+@media (min-width: 320px) and (max-width: 991px)
+{
+
+    html
+    {
+        font-size: 14px;
+    }
+
+    .current_user
+    {
+        width: 1rem !important;
+        height: 1rem !important;
+    }
+
+    @media (min-width: 320px) and (max-width: 576px)
+    {
+        [class ^= "card"] img
+        {
+            top: -35px;
+            scale: 0.9;
+        }  
+        
+        [class ^= "card"]
+        {
+            width: 80%;
+            margin-bottom: 1rem;
+            margin-top: 1rem;
+        }
+
+        .content_top
+        {
+            padding-top: 1rem;
+        }
+        .content_top div:nth-child(1)
+        {
+            width: 60%;
+        }
+
+        .content_top input
+        {
+            width: 70   0% !important;
+        }
+        .content_top div:nth-child(2)
+        {
+            width: 40%;
+        }
+
+        .content_middle div:nth-child(2)
+        {
+            width: 50%;
+            margin: 0 auto;
+            margin-bottom: 1rem;
+        }
+    }
+
+    /* @media(min-width: 477px) and (max-width: 576px)
+    {
+        [class ^= "card"] img
+        {
+            top: -1px;
+            scale: 1;
+        }
+    } */
+    
+    @media (min-width: 577px) and (max-width:700px)
+    {
+        [class ^= "card"] img
+        {
+            top: -30px;
+            scale: 1.5;
+        }    
+        
+    .content_top input
+    {
+        width: 50% !important;
+    }
+    }
+
+    @media (min-width: 701px) and (max-width:991px)
+    {
+        [class ^= "card"] img
+        {
+            top: -40px;
+            scale: 1.2;
+        }    
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px)
+{
+    [class ^= "card"] img
+    {
+        top: -15px;
+        scale: 1.6;
+    }
+    .sidebar_div
+    {
+        height: 100vh;
+    }
+
+}
+
+@media (min-width: 1200px)
+{
+    [class ^= "card"] img
+    {
+        top: -27px;
+        scale: 1.7;
+    }
+    .sidebar_div
+    {
+        /* height: 100vh; */
+    }
+}
+
+@media (min-width: 1600px)
+{
+    [class ^= "card"] img
+    {
+        top: -30px;
+        scale: 1.4;
+    }
+
+    .content_top, .content_top input
+    {
+        font-size: 1.3rem;
+    }
+    .content_middle h2
+    {
+        font-size: 3.5rem;
+    }
+
+    .content_middle p
+    {
+        font-size: 1.4rem;
+    }
+
+    .content_bottom
+    {
+        font-size: 1.4rem;
+    }
+
+    .start_cook  h6
+    {
+        font-size: 1.3rem;
+    }
+
+    .sidebar_div
+    {
+        font-size: 1.5rem;
+    }
+
+    .sidebar_div h3
+    {
+        font-size: 3rem;
+    }
+    .sidebar_div
+    {
+        height: 100vh;
+    }
+
+}
+
+
+/* media-queries - ends */

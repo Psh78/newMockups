@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="mock2_B.css">
+    <title>Foodoo Bootstrap</title>
+</head>
+<body>
+    <div class="container-fluid border">
+        <div class="row">
+            <div class="sidebar_div col-xs-12 col-sm-12 col-md-12 col-lg-2 col-xl-2 col-xxl-2 d-md-flex justify-content-md-around align-items-md-around d-sm-flex justify-content-sm-around align-items-sm-around d-xs-flex justify-content-xs-around align-items-xs-around d-lg-flex flex-lg-column justify-content-lg-around">
+                <div class="row justify-content-center mt-4 mb-5 ">
+                    <div class="col-12 col-md-8 col-sm-8 col-xs-8 text-center side_top m-md-0 p-md-0 p-sm-0 m-sm-0 pxs-0 m-xs-0">
+                        <h3 class="mb-4 mb-md-1 col-md-12 col-xs-12 col-sm-12">Foodo</h3>
+                        <img class="w-50 rounded-circle mb-2 col-md-12 col-sm-12 col-xs-12" src="images/userImage.jpg" alt="user">
+                        <p class="m-0 fs-lg-5 fw-bold col-md-12 col-sm-12 col-xs-12">John Doe</p>
+                        <p class="m-0 fw-lg-normal col-md-12 col-sm-12 col-xs-12">Chef master</p>
+                        <button class="btn btn-light rounded-pill btn-sm mt-2 mt-md-1 shadow-sm"><span class="bi-basket-fill me-2 text-danger"></span>37</button>
+                    </div>
+                </div>
+                <div class="row justify-content-lg-start ps-lg-3 side_middle mb-5 mt-5">
+                    <div class="col-8 col-md-12 col-sm-12 col-xs-12 d-lg-flex flex-lg-column justify-content-lg-start align-items-lg-center d-md-flex justify-content-md-start d-sm-flex justify-content-sm-start d-xs-flex justify-content-xs-start p-lg-0 ms-lg-3">
+                        <div class="row p-lg-0 col-md-6 col-sm-6 col-xs-6"><h6 class="p-lg-0 pe-md-2 "><span class="bi-book-fill me-2 text-danger"></span>Recipies</h6></div>
+                        <div class="row p-lg-0 col-md-6 col-sm-6 col-xs-6"><h6 class="p-lg-0"><span class="bi-heart-fill me-2 text-danger"></span>Favorite</h6></div>
+                        <div class="row p-lg-0 col-md-6 col-sm-6 col-xs-6" ><h6 class="p-lg-0"><span class="bi-box-fill me-2 text-danger"></span>Courses</h6></div>
+                        <div class="row ps-xl-4 ps-lg-1 p-md-0 col-md-6 col-sm-6 col-xs-6"><h6 class="p-0"><span class="bi-globe me-2 text-danger p-0"></span>Community</h6></div>
+                    </div>
+                </div>
+                <div class="row side_bottom text-center mt-5">
+                    <div class="col-12 col-md-12 col-sm-12 col-xs-12 d-flex justifyy-content-md-center align-items-md-center">
+                        <img src="images/userImage.jpg" alt="image1" class="col-md-3 col-sm-3 col-xs-3">
+                        <img src="images/user2.jpg" alt="image2" class="col-md-3 col-sm-3 col-xs-3">
+                        <span class="bi-plus-circle" class="col-md-3 col-sm-3 col-xs-3"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="content_div col-xs-12 col-sm-12 col-md-12 col-lg-10 col-xl-10 col-xxl-10 content p-xl-5 p-lg-4 p-md-4 pt-sm-3 p-xs-1">
+                <div class="content_top row d-lg-flex align-items-center ">
+                    <div class="col-xxl-10 col-xl-10 col-lg-8 col-md-8 col-sm-8 col-xs-12 position-relative">
+                        <span class="bi-search position-absolute search_img"></span>
+                        <form action="#">
+                            <input type="email" placeholder="Enter your email" class="form-control w-25  border border-0 border-bottom search_bar">
+                        </form>
+                    </div>
+                    <div class="col-xxl-2 col-xl-2 col-lg-4 col-md-4 col-sm-4 col-xs-12 text-end pe-4">
+                        <span class="bi-sliders me-3"></span>
+                        <button class="btn btn-danger shadow">Go Premium</button>
+                        <div class="hamburger">
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class=" content_middle row d-flex content_middle mt-5">
+                    <div class="col-xxl-10 col-xl-10 col-lg-9 col-md-8 col-sm-8 col-xs-12 d-flex">
+                        <img src="cook4.jpg" alt="cook image" class="rounded-circle h-75">
+                        <div class="col-8 col-xs-4 d-flex flex-column justify-content-center">
+                            <h2 class="fs-xl-1 fs-lg-2">Only the best recipies!</h2>
+                            <p class="text-muted">Today's new recipies for you</p>
+                        </div>
+                    </div>
+                    <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-4 col-sm-4 col-xs-6 pt-xs-12 d-flex align-items-center">
+                        <div class="col-6">
+                            <h1 class="border-end fs-lg-2 fs-xs-6">168</h1>
+                            <p class="border-end">Tutorials</p>
+                        </div>
+                        <div class="col-6 text-center">
+                            <h1 class="fs-lg-5 ">304</h1>
+                            <p>Recipies</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="content_bottom row p-xl-3 p-lg-0 m-xs-5 d-flex flex-md-column flex-xs-column align-items-md-center justify-content-md-center justify-content-sm-center justify-content-center ">
+                    <div class="card_top_row row text-center d-flex justify-content-around flex-xs-column justify-content-xs-center align-items-xs-center">
+                        <div class="card1 col-xl-2 col-lg-2 col-md-4 col-sm-4 d-flex flex-column align-items-center p-xl-0 m-xl-3 p-lg-0 m-lg-0 m-md-4 m-sm-4 bg-light border shadow rounded-4 position-relative">
+                            <img src="images/card2.jpg" alt="card1" class="w-25 rounded-circle position-absolute">
+                            <p class="fw-bold dish_name">Salad</p>
+                            <div class="col-xxl-5 col-lg-7">
+                                <p class="fw-bold bg-success rounded beginner">Beginner</p>
+                            </div>
+                            <div class="col-xl-8 col-lg-10 d-flex justify-content-around align-items-center">
+                                <div class="col-4">
+                                    <p class="fw-bold p-0 m-0">25</p>
+                                    <p class="m-0">Min</p>
+                                </div>
+                                <div class="col-4 border-start border-end border-2">
+                                    <p class="fw-bold p-0 m-0">95</p>
+                                    <p class="m-0">Kcal</p>
+                                </div>
+                                <div class="col-4">
+                                    <p class="fw-bold fa-solid fa-leaf p-0 m-0"></p>
+                                    <p class="fw-bold fs-6 m-0">Veg</p>
+                                </div>
+                            </div>
+                            <div class="col-12 d-flex justify-content-center mt-3 pb-4 border-bottom">
+                                <span class="fa-solid fa-star"></span>
+                                <span class="fa-solid fa-star"></span>
+                                <span class="fa-solid fa-star"></span>
+                                <span class="fa-solid fa-star"></span>
+                                <span class="fa-solid fa-star"></span>
+                            </div>
+                            <div class="start_cook col-12 m-0 pt-2 pb-2">
+                                <h6 class="">Start cooking</h6>
+                            </div>
+                        </div> 
+                        <div class="card2 col-xl-2 col-lg-2 col-md-4 col-sm-4 col-xs-6 d-flex flex-column align-items-center p-xl-0 m-xl-3 p-lg-0 m-lg-0 m-md-4 m-sm-4 m-xs-5 bg-light border shadow rounded-4 position-relative">
+                            <img src="images/card3.jpg" alt="card2" class="w-25 rounded-circle position-absolute">
+                            <p class="fw-bold dish_name">Chicken 65</p>
+                            <div class="col-xxl-4 col-xl-3 col-lg-5">
+                                <p class="fw-bold bg-danger rounded expert">Expert</p>
+                            </div>
+                            <div class="col-xl-8 col-lg-10 d-flex justify-content-around p-0 m-0">
+                                <div class="col-4">
+                                    <p class="fw-bold p-0 m-0">25</p>
+                                    <p class="m-0">Min</p>
+                                </div>
+                                <div class="col-4 border-start border-end border-2">
+                                    <p class="fw-bold p-0 m-0">95</p>
+                                    <p class="m-0">Kcal</p>
+                                </div>
+                                <div class="col-4">
+                                    <p class="fw-bold fa-solid fa-drumstick-bite p-0 m-0"></p>
+                                    <p class="fw-bold fs-6 m-0">Meat</p>
+                                </div>
+                            </div>
+                            <div class="col-12 d-flex justify-content-center mt-3 pb-4 border-bottom border-2">
+                                <span class="fa-solid fa-star"></span>
+                                <span class="fa-solid fa-star"></span>
+                                <span class="fa-solid fa-star"></span>
+                                <span class="fa-solid fa-star"></span>
+                                <span class="fa-solid fa-star"></span>
+                            </div>
+                            <div class="start_cook col-12 m-0 pt-2 pb-2 ">
+                                <h6 class="">Start cooking</h6>
+                            </div>
+                        </div>
+                        <div class="card3 col-xl-2 col-lg-2 col-md-4 col-sm-4 col-xs-4 d-flex flex-column align-items-center p-xl-0 m-xl-3 p-lg-0 m-lg-0 m-md-4 m-sm-4 m-xs-5 bg-light border shadow rounded-4 position-relative">
+                            <img src="images/card4.jpg" alt="card3" class="w-25 rounded-circle position-absolute">
+                            <p class="fw-bold dish_name">Fried Rice</p>
+                            <div class="col-xxl-5 col-xl-4 col-lg-7">
+                                <p class="fw-bold bg-success rounded beginner">Beginner</p>
+                            </div>
+                            <div class="col-xl-8 col-lg-10 d-flex justify-content-around align-items-center">
+                                <div class="col-4">
+                                    <p class="fw-bold p-0 m-0">25</p>
+                                    <p class="m-0">Min</p>
+                                </div>
+                                <div class="col-4 border-start border-end border-2">
+                                    <p class="fw-bold p-0 m-0">95</p>
+                                    <p class="m-0">Kcal</p>
+                                </div>
+                                <div class="col-4">
+                                    <p class="fw-bold fa-solid fa-leaf p-0 m-0"></p>
+                                    <p class="fw-bold fs-6 m-0">Veg</p>
+                                </div>
+                            </div>
+                            <div class="col-12 d-flex justify-content-center mt-3 pb-4 border-bottom border-2">
+                                <span class="fa-solid fa-star"></span>
+                                <span class="fa-solid fa-star"></span>
+                                <span class="fa-solid fa-star"></span>
+                                <span class="fa-solid fa-star"></span>
+                                <span class="fa-solid fa-star"></span>
+                            </div>
+                            <div class="start_cook col-12 m-0 pt-2 pb-2 ">
+                                <h6 class="">Start cooking</h6>
+                            </div>
+                        </div>
+                        <div class="card4 col-xl-2 col-lg-2 col-md-4 col-sm-4 col-xs-4 d-flex flex-column align-items-center p-xl-0 m-xl-3 p-lg-0 m-lg-0 m-md-4 m-sm-4 m-xs-5 bg-light border shadow rounded-4 position-relative">
+                            <img src="images/card5.jpg" alt="card4" class="w-25 rounded-circle position-absolute">
+                            <p class="fw-bold dish_name">Pulav</p>
+                            <div class="col-xxl-7 col-xl-6 col-lg-9">
+                                <p class="fw-bold bg-warning rounded intermediate">Intermediate</p>
+                            </div>
+                            <div class="col-xl-8 col-lg-10 d-flex justify-content-center align-items-center">
+                                <div class="col-4">
+                                    <p class="fw-bold p-0 m-0">25</p>
+                                    <p class="m-0">Min</p>
+                                </div>
+                                <div class="col-4 border-start border-end border-2">
+                                    <p class="fw-bold p-0 m-0">95</p>
+                                    <p class="m-0">Kcal</p>
+                                </div>
+                                <div class="col-4">
+                                    <p class="fw-bold fa-solid fa-leaf p-0 m-0"></p>
+                                    <p class="fw-bold fs-6 m-0">Veg</p>
+                                </div>
+                            </div>
+                            <div class="col-12 d-flex justify-content-center mt-3 pb-4 border-bottom border-2">
+                                <span class="fa-solid fa-star"></span>
+                                <span class="fa-solid fa-star"></span>
+                                <span class="fa-solid fa-star"></span>
+                                <span class="fa-solid fa-star"></span>
+                                <span class="fa-solid fa-star"></span>
+                            </div>
+                            <div class="start_cook col-12 m-0 pt-2 pb-2 ">
+                                <h6 class="">Start cooking</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card_bottom_row row text-center d-flex justify-content-around">
+                        <div class="card5 col-xl-2 col-lg-2 col-md-4 col-sm-4 col-xs-4 d-flex flex-column align-items-center p-xl-0 m-xl-3 p-lg-0 m-lg-0 m-md-4 m-sm-4 m-xs-5 bg-light border shadow rounded-4 position-relative">
+                            <img src="images/image1.jpg" alt="card5" class="w-25 rounded-circle position-absolute">
+                            <p class="fw-bold dish_name">chicken Noodles</p>
+                            <div class="col-xxl-4 col-xl-3 col-lg-5">
+                                <p class="fw-bold bg-danger rounded expert">Expert</p>
+                            </div>
+                            <div class="col-xl-8 col-lg-10 d-flex justify-content-around">
+                                <div class="col-4">
+                                    <p class="fw-bold p-0 m-0">25</p>
+                                    <p class="m-0">Min</p>
+                                </div>
+                                <div class="col-4 border-start border-end border-2">
+                                    <p class="fw-bold p-0 m-0">95</p>
+                                    <p class="m-0">Kcal</p>
+                                </div>
+                                <div class="col-4">
+                                    <p class="fw-bold fa-solid fa-drumstick-bite p-0 m-0"></p>
+                                    <p class="fw-bold fs-6 m-0">Meat</p>
+                                </div>
+                            </div>                            
+                            <div class="col-12 d-flex justify-content-center mt-3 pb-4 border-bottom border-2">
+                                <span class="fa-solid fa-star"></span>
+                                <span class="fa-solid fa-star"></span>
+                                <span class="fa-solid fa-star"></span>
+                                <span class="fa-solid fa-star"></span>
+                                <span class="fa-solid fa-star"></span>
+                            </div>
+                            <div class="start_cook col-12 m-0 pt-2 pb-2 ">
+                                <h6 class="">Start cooking</h6>
+                            </div>
+                        </div>
+                        <div class="card6 col-xl-2 col-lg-2 col-md-4 col-sm-4 col-xs-4 d-flex flex-column align-items-center p-xl-0 m-xl-3 p-lg-0 m-lg-0 m-md-4 m-sm-4 m-xs-5 bg-light border shadow rounded-4 position-relative">
+                            <img src="images/card6.jpg" alt="card6" class="w-25 rounded-circle position-absolute">
+                            <p class="fw-bold dish_name">Paneer</p>
+                            <div class="col-xxl-7 col-xl-6 col-lg-9">
+                                <p class="fw-bold bg-warning rounded intermediate">Intermediate</p>
+                            </div>
+                            <div class="col-xl-8 col-lg-10 d-flex justify-content-around align-items-center">
+                                <div class="col-4">
+                                    <p class="fw-bold p-0 m-0">25</p>
+                                    <p class="m-0">Min</p>
+                                </div>
+                                <div class="col-4 border-start border-end border-2">
+                                    <p class="fw-bold p-0 m-0">95</p>
+                                    <p class="m-0">Kcal</p>
+                                </div>
+                                <div class="col-4">
+                                    <p class="fw-bold fa-solid fa-leaf p-0 m-0"></p>
+                                    <p class="fw-bold fs-6 m-0">Veg</p>
+                                </div>
+                            </div>
+                            <div class="col-12 d-flex justify-content-center mt-3 pb-4 border-bottom border-2">
+                                <span class="fa-solid fa-star"></span>
+                                <span class="fa-solid fa-star"></span>
+                                <span class="fa-solid fa-star"></span>
+                                <span class="fa-solid fa-star"></span>
+                                <span class="fa-solid fa-star"></span>
+                            </div>
+                            <div class="start_cook col-12 m-0 pt-2 pb-2 ">
+                                <h6 class="">Start cooking</h6>
+                            </div>
+                        </div>
+                        <div class="card7 col-xl-2 col-lg-2 col-md-4 col-sm-4 col-xs-4 d-flex flex-column align-items-center p-xl-0 m-xl-3 p-lg-0 m-lg-0 m-md-4 m-sm-4 m-xs-5 bg-light border shadow rounded-4 position-relative">
+                            <img src="images/card7.jpg" alt="card7" class="w-25 rounded-circle position-absolute">
+                            <p class="fw-bold dish_name">Jeera Rice</p>
+                            <div class="col-xxl-5 col-xl-4 col-lg-7">
+                                <p class="fw-bold bg-success rounded beginner">Beginner</p>
+                            </div>
+                            <div class="col-xl-8 col-lg-10 d-flex justify-content-around align-items-center">
+                                <div class="col-4">
+                                    <p class="fw-bold p-0 m-0">25</p>
+                                    <p class="m-0">Min</p>
+                                </div>
+                                <div class="col-4 border-start border-end border-2">
+                                    <p class="fw-bold p-0 m-0">95</p>
+                                    <p class=" m-0">Kcal</p>
+                                </div>
+                                <div class="col-4">
+                                    <p class="fw-bold fa-solid fa-leaf p-0 m-0"></p>
+                                    <p class="fw-bold fs-6 m-0">Veg</p>
+                                </div>
+                            </div>
+                            <div class="col-12 d-flex justify-content-center mt-3 pb-4 border-bottom border-2">
+                                <span class="fa-solid fa-star"></span>
+                                <span class="fa-solid fa-star"></span>
+                                <span class="fa-solid fa-star"></span>
+                                <span class="fa-solid fa-star"></span>
+                                <span class="fa-solid fa-star"></span>
+                            </div>
+                            <div class="start_cook col-12 m-0 pt-2 pb-2 ">
+                                <h6 class="">Start cooking</h6>
+                            </div>
+                        </div>
+                        <div class="card8 col-xl-2 col-lg-2 col-md-4 col-sm-4 col-xs-4 d-flex flex-column align-items-center p-xl-0 m-xl-3 p-lg-0 m-lg-0 m-md-4 m-sm-4 m-xs-5 bg-light border shadow rounded-4 position-relative">
+                            <img src="images/card8.jpg" alt="card8" class="w-25 rounded-circle position-absolute">
+                            <p class="fw-bold dish_name">Noodles</p>
+                            <div class="col-xxl-7 col-xl-6 col-lg-9">
+                                <p class="fw-bold bg-warning rounded intermediate">Intermediate</p>
+                            </div>
+                            <div class="col-xl-8 col-lg-10 d-flex justify-content-around">
+                                <div class="col-4">
+                                    <p class="fw-bold p-0 m-0">25</p>
+                                    <p class="m-0">Min</p>
+                                </div>
+                                <div class="col-4 border-start border-end border-2">
+                                    <p class="fw-bold p-0 m-0">95</p>
+                                    <p class="m-0">Kcal</p>
+                                </div>
+                                <div class="col-4">
+                                    <p class="fw-bold fa-solid fa-drumstick-bite p-0 m-0"></p>
+                                    <p class="fw-bold  m-0fs-6 m-0">Meat</p>
+                                </div>
+                            </div>                                 
+                            <div class="col-12 d-flex justify-content-center mt-3 pb-4 border-bottom border-2">
+                                <span class="fa-solid fa-star"></span>
+                                <span class="fa-solid fa-star"></span>
+                                <span class="fa-solid fa-star"></span>
+                                <span class="fa-solid fa-star"></span>
+                                <span class="fa-solid fa-star"></span>
+                            </div>
+                            <div class="start_cook col-12 m-0 pt-2 pb-2 ">
+                                <h6 class="">Start cooking</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>
