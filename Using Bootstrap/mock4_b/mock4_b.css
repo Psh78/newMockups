@@ -1,0 +1,435 @@
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html
+{
+    width: 100%;
+    font-size: 16px;
+}
+
+body
+{
+    background-color: #f3f5f7;
+    width: 100%;
+}
+
+body img
+{
+    width: 2rem;
+    border-radius: 10px;
+}
+
+.row 
+{
+    background-color: #f3f5f7;
+}
+
+body p
+{
+    font-weight: 550;
+}
+
+main
+{
+    background-color: #f3f5f7;
+}
+
+.wrapper
+{
+    background-color: white;
+}
+content
+{
+    width: 71%;
+}
+
+.cont-1, .cont-2, .cont-3, .cont-4, .cont-5, .cont-6, .cont-7-container, .cont-8, .cont-9
+{
+    box-shadow: 0px 0px 11px 1px rgba(0,0,0,0.1);
+}
+
+/* ----- sidebar starts */
+side-bar
+{
+    background-color: white;
+    height: auto;
+    width: 100%;
+}
+
+side-bar span, content span
+{
+    color: rgb(151, 150, 150);
+}
+
+/* ------ container - 1 */
+.cont-1-container
+{
+    background-color: #f3f5f7;
+    /* border: 1px solid black; */
+}
+.cont-1
+{
+    background-color: white;
+    width: 95%;
+    height: 90%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size: 0.8rem;
+}
+
+.cont-1 [class *= "bi"]
+{
+    font-size: 1rem;
+    padding-left: 0.4rem;
+}
+
+/* ----- container - 2 */
+.cont-2-container
+{
+    background-color: #f3f5f7;
+    position: relative;
+    left: 20px;
+    /* border: 1px solid black; */
+}
+
+.cont-2
+{
+    width: 90%;
+    height: 90%;
+    background-color: white;
+    border-radius: 20px;
+    position: relative;
+    left: 10px;
+}
+
+.cont-2 h5
+{
+    font-size: 1rem;
+}
+
+.rate
+{
+    background-color: rgb(189, 245, 189);
+    color: rgb(61, 184, 61);
+    font-size: 0.8rem;
+}
+
+.cont-2 span
+{
+    font-weight: 550;
+    font-size: 0.7rem;
+}
+
+[class *= "bi-folder"]
+{
+    border: 1px solid rgb(219, 218, 218);
+    padding: 0.2rem 0.3rem !important;
+    color: black !important;
+}
+
+.cont-2-top button
+{
+    font-size: 0.8rem;
+    padding: 0.3rem 0.5rem !important;
+    color: black !important;
+}
+
+/* ----- container - 3 */
+
+.cont-3-container
+{
+    position: relative;
+    position: relative;
+    left: 20px;
+}
+
+.cont-3
+{
+    background-color: white;
+    width: 90%;
+    margin-left: 1rem;
+    font-size: 0.9rem;
+}
+
+.cont-3 h6{
+    font-size: 0.9rem;
+}
+
+.cont-3 span
+{
+    font-size: 0.8rem;
+}
+.cont-3 button
+{
+    padding: 0.2em 0.8em;
+    font-size: 1.3em;
+    color: white;
+}
+
+.cont-3 input
+{
+    all: unset;
+    background-color: white;
+    width: 80%;
+    border-radius: 10px;
+    border: 1px solid rgb(187, 186, 186);
+    font-size: 0.8rem;
+    color: rgb(48, 47, 47);
+}
+
+/* ------- content - starts */
+
+/* ------- cont-4 container */
+
+.cont-4
+{
+    background-color: white;
+    margin-top: 3rem !important;
+    margin-bottom: 2rem !important;
+    padding: 0.5rem 0.8rem 0.5rem 3rem;
+}
+
+.cont-4 h6
+{
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.cont-4 span
+{
+    font-size: 0.8rem;
+}
+
+.loss
+{
+    color: rgb(130, 35, 35);
+    font-size: 0.8rem;
+    padding: 0.4rem;
+    background-color: rgba(113, 78, 78, 0.1);
+    border-radius: 10px;
+}
+
+.profit
+{
+    color: rgb(8, 180, 54);
+    font-size: 0.8rem;
+    padding: 0.4rem;
+    background-color: rgba(28, 160, 19, 0.1);
+    border-radius: 10px;
+}
+
+/* -----cont-5  */
+.cont-5-container
+{
+    background-color: #f3f5f7;
+    width: 43%;
+}
+
+.cont-5
+{
+    background-color: white;
+    width: 100%;
+}
+
+.cont-5 span
+{
+    font-size: 0.8rem;
+}
+
+.cont-5 h5
+{
+    font-size: 0.9rem;
+}
+
+.cont-5-top h6
+{
+    font-size: 1rem !important;
+}
+
+.navigation-middle
+{
+    font-size: 0.5rem !important;
+    color: rgb(184, 180, 180);
+}
+
+.navigation-bars
+{
+    font-size: 1.8rem !important;
+    color: #e2e4e5;   
+}
+
+.chat-text
+{
+    font-size: 0.7rem !important;
+}
+
+.time-text
+{
+    font-size: 0.7rem !important;
+}
+
+.cont-5 button
+{
+    font-size: 0.8rem;
+}
+
+/* cont-6 starts */
+
+.cont-6
+{
+    font-size: 0.9rem !important;
+    background-color: white;
+    margin-left: 4rem;
+}
+
+.checker
+{
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.count
+{
+    font-weight: 550;
+}
+
+/* ------- cont-7 starts */
+
+.cont-7
+{
+    background-color: white;
+    font-size: 0.8rem;
+}
+
+.cont-7-container
+{
+    margin-left: 4rem;
+}
+
+/* ---- cont-8 starts */
+
+.cont-8-container
+{
+    margin-left: 4rem;
+}
+
+.cont-8
+{
+    background-color: white;
+    font-size: 0.9rem !important;
+}
+
+.cont-8 button
+{
+    font-size: 0.8rem !important;
+}
+
+input[type=checkbox]{
+    height: 0;
+    width: 0;
+    visibility: hidden;
+  }
+  
+  label {
+    cursor: pointer;
+    text-indent: -9999px;
+    width: 40px;
+    height: 20px;
+    background: grey;
+    display: inline-block;
+    border-radius: 100px;
+    position: relative;
+  }
+  
+  label:after {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    border-radius: 100px;
+    transition: 0.2s;
+  }
+  
+  input:checked + label {
+    /* background: #bada55; */
+    background-color: #111112;
+  }
+  
+  input:checked + label:after {
+    left: calc(100% - 5px);
+    transform: translateX(-100%);
+  }
+  
+  label:active:after {
+    width: 20px;
+  }
+  
+.cont-8-container select
+{
+    padding: 0.3rem 1.2rem;
+    border: 1px solid rgb(211, 207, 207);
+    border-radius: 10px;
+}
+
+.cont-8-container:checked
+{
+    border-radius: 10px;
+}
+
+.hrs
+{
+    color: rgb(135, 131, 131);
+}
+
+
+/* ----- cont-9 starts */
+
+.cont-9-container
+{
+    margin-left: 4rem;
+}
+
+.medical-circle
+{
+    font-size: 0.5rem;
+    margin:0 0.5rem;
+}
+
+.cont-9 p
+{
+    font-size: 0.9rem;
+}
+
+.cont-9 div:nth-child(1) p
+{
+    font-size: 0.9rem;
+}
+
+.div1
+{
+    font-size: 0.8rem;
+}
+
+.screenpng
+{
+    font-size: 0.8rem;
+}
+
+.medical-circle 
+{
+    font-size: 0.4rem;
+}
+
+.pending
+{
+    font-size: 0.8rem;
+}
